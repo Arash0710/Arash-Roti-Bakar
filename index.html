@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Roti Bakar Lezat</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="application/id+json">
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Arash Roti Bakar</h1>
+            <p>Jangan Baper, Roti Bakar Manis Siap Bikin Kamu Senyum!</p>
+            <a href="#order" class="btn-order">Pesan Yuk!</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Roti Bakar</h2>
+            <p>Roti bakar adalah hidangan lezat yang terbuat dari roti yang dipanggang dengan berbagai isian, mulai dari cokelat, keju, hingga selai buah manis. Mari nikmati kelezatannya!</p>
+            <img src="logotrash.jpg" alt="Roti Bakar Coklat" class= image  /> 
+    </section>
+
+    <section id="order">
+        <div class="container">
+            <h2>Pilih Roti Bakar Favorit Kamu Yaa</h2>
+            <div class="menu">
+                <div class="item">
+                    <img src="rotibakar.jpg" alt="Roti Bakar Cokelat" class="item-image"/>
+                    <h3>Roti Bakar Cokelat</h3>
+                    <p>Roti bakar dengan isian cokelat lezat yang meleleh</p>
+                    <button onclick="addToOrder('Roti Bakar Cokelat')">Pesan</button>
+                </div>
+                <div class="item">
+                    <img src="rotibakarb.jpg" alt="Roti Bakar Selai Blueberry" class="item-image"/>
+                    <h3>Roti Bakar Keju</h3>
+                    <p>Roti bakar dengan lelehan keju yang creamy dan gurih</p>
+                    <button onclick="addToOrder('Roti Bakar Selai Blueberry')">Pesan</button>
+                </div>
+                <div class="item">
+                    <img src="rotibakars.jpg" alt="Roti Bakar Selai Strowberry" class="item-image"/>
+                    <h3>Roti Bakar Selai</h3>
+                    <p>Roti bakar dengan selai buah manis yang menggoda</p>
+                    <button onclick="addToOrder('Roti Bakar Selai Strowberry')">Pesan</button>
+                </div>
+            </div>
+            <h4>Pesananmu:</h4>
+            <ul id="order-list"></ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Arash Roti Bakar  - Semua hak cipta dilindungi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
